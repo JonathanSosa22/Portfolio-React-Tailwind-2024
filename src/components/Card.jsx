@@ -3,7 +3,7 @@
 const Card = ({ proyect }) => {
   return (
     <>
-      <div className="w-[90%] flex flex-col p-3 py-5 border-2 my-2 md:w-[350px]">
+      <div className="w-[90%] flex flex-col p-3 py-5 border-2 my-2 md:w-[350px] dark:border-none">
         <img src={proyect.img} alt={proyect.name} />
         <h3 className="font-bold py-4">{proyect.name}</h3>
         <p className="text-gray-500">{proyect.descripcion}</p>
