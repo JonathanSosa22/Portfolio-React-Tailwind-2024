@@ -6,7 +6,9 @@ const NavBar = () => {
   const [theme, setTheme] = useState("light");
 
   const toggleTheme = () => {
-    setTheme(theme === "light" ? "dark" : "light");
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
+    localStorage.setItem("theme", newTheme);
   };
 
   const toggleNavBar = () => {
@@ -18,6 +20,11 @@ const NavBar = () => {
       document.documentElement.classList.add("dark");
     } else {
       document.documentElement.classList.remove("dark");
+    }
+
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) {
+      setTheme(savedTheme);
     }
   }, [theme]);
 
@@ -36,16 +43,16 @@ const NavBar = () => {
 
             <div className="hidden md:block">
               <div className="ml-4 items-center space-x-4 font-bold">
-                <a href="#" className="hover:text-yellow-400">
+                <a href="#home" className="hover:text-red-400">
                   Home
                 </a>
-                <a href="#" className="hover:text-yellow-400">
+                <a href="#about" className="hover:text-red-400">
                   About
                 </a>
-                <a href="#" className="hover:text-yellow-400">
+                <a href="#portfolio" className="hover:text-red-400">
                   Portfolio
                 </a>
-                <a href="#" className="hover:text-yellow-400">
+                <a href="#contact" className="hover:text-red-400">
                   Contact
                 </a>
                 <button onClick={toggleTheme}>
@@ -78,16 +85,32 @@ const NavBar = () => {
         </div>
         {isOpen && (
           <div className="md:hidden text-center font-bold">
-            <a href="#" className="pb-5 block hover:text-yellow-400">
+            <a
+              href="#home"
+              className="pb-5 block hover:text-red-400"
+              onClick={toggleNavBar}
+            >
               Home
             </a>
-            <a href="#" className="pb-5 block hover:text-yellow-400">
+            <a
+              href="#about"
+              className="pb-5 block hover:text-red-400"
+              onClick={toggleNavBar}
+            >
               About
             </a>
-            <a href="#" className="pb-5 block hover:text-yellow-400">
+            <a
+              href="#portfolio"
+              className="pb-5 block hover:text-red-400"
+              onClick={toggleNavBar}
+            >
               Portfolio
             </a>
-            <a href="#" className="pb-5 block hover:text-yellow-400">
+            <a
+              href="#contact"
+              className="pb-5 block hover:text-red-400"
+              onClick={toggleNavBar}
+            >
               Contact
             </a>
           </div>

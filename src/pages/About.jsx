@@ -2,7 +2,9 @@
 const About = () => {
   return (
     <>
-      <h2 className="text-3xl font-bold text-center py-5">About Me</h2>
+      <h2 className="text-3xl font-bold text-center py-3" id="about">
+        About Me
+      </h2>
       <div className="flex flex-col p-3 mx-auto gap-3 justify-center items-center md:flex-row">
         <div className="h-[400px] w-[350px] bg-red-600 min-w-[300px]"></div>
         <div className="flex flex-col p-5 gap-3 text-gray-500 md:max-w-[700px]">

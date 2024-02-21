@@ -1,7 +1,10 @@
 const Home = () => {
   return (
     <>
-      <section className="flex flex-col justify-center items-center md:flex-row mx-auto p-2 gap-5">
+      <section
+        className="flex flex-col justify-center items-center mx-auto py-3 gap-5 my-3 md:flex-row"
+        id="home"
+      >
         <div className="flex flex-col justify-between p-5">
           <h3 className="text-red-600">Web Developer</h3>
           <h1 className="text-4xl font-bold pb-4">

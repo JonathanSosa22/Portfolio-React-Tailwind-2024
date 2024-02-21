@@ -23,7 +23,9 @@ const Contact = () => {
 
   return (
     <>
-      <h2 className="text-3xl font-bold text-center py-5">Contact</h2>
+      <h2 className="text-3xl font-bold text-center py-3" id="contact">
+        Contact
+      </h2>
       <div className="flex p-3 mx-auto gap-5 justify-center items-center">
         <img
           src="https://i.ibb.co/0BwZ2Np/crud.png"
