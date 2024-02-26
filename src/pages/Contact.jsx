@@ -44,7 +44,7 @@ const Contact = () => {
             <input
               type="text"
               name="userName"
-              className="w-[350px] text-gray-500 border border-gray-300 p-2 rounded-md"
+              className="w-[300px] text-gray-500 border border-gray-300 p-2 rounded-md"
               required
             />
           </div>
@@ -55,7 +55,7 @@ const Contact = () => {
             <input
               type="email"
               name="email"
-              className="w-[350px] text-gray-500 border border-gray-300 p-2 rounded-md"
+              className="w-[300px] text-gray-500 border border-gray-300 p-2 rounded-md"
               required
             />
           </div>
@@ -65,7 +65,7 @@ const Contact = () => {
             </label>
             <textarea
               name="message"
-              className="w-[350px] h-[200px] text-gray-500 border border-gray-300 p-2 rounded-md"
+              className="w-[300px] h-[200px] text-gray-500 border border-gray-300 p-2 rounded-md"
               required
             />
           </div>

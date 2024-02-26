@@ -4,7 +4,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
-import Footer from "./components/Footer";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -12,9 +12,9 @@ function App() {
       <NavBar />
       <Home />
       <About />
+      <Skills />
       <Portfolio />
       <Contact />
-      <Footer />
     </>
   );
 }

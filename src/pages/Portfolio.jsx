@@ -4,7 +4,7 @@ import data from "../data/data";
 const Portfolio = () => {
   return (
     <>
-      <h2 className="text-3xl font-bold text-center py-3" id="portfolio">
+      <h2 className="text-3xl font-bold text-center py-3 mt-5" id="portfolio">
         Portfolio
       </h2>
       <div className="w-full flex flex-wrap justify-center mx-auto gap-4 py-4">
