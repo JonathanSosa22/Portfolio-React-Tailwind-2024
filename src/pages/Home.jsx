@@ -11,8 +11,10 @@ const Home = () => {
             Hello, my name is <br /> Sosa Jonathan
           </h1>
           <p className="pb-4 text-lg text-gray-500 max-w-[400px]">
-            Brief desciption about my self, my vocational journey, and what I
-            engage in professionally
+            I am a passionate web developer with a focus on both front-end and
+            back-end. Over the past year, I have dedicated my time to studying
+            and have completed a specialized bootcamp, allowing me to acquire
+            strong skills in both areas.
           </p>
           <div className="flex gap-4 pb-4 text-lg">
             <button className="bg-red-600 font-bold text-white px-4 py-2 rounded-md hover:bg-gray-600">

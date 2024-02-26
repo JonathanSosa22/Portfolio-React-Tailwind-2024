@@ -9,14 +9,20 @@ const About = () => {
         <div className="h-[400px] w-[350px] bg-red-600 min-w-[300px]"></div>
         <div className="flex flex-col p-5 gap-3 text-gray-500 md:max-w-[700px]">
           <p className="py-4 text-lg">
-            Hi! I'm passionate about web development and recently completed a
-            bootcamp at Academlo where I learned technologies like HTML, CSS,
-            JavaScript, React, TailwindCSS, TypeScript, Node.js, Express.js,
-            Sequelize, and I also have basic knowledge of Next.js and Angular.
+            Hi! With a strong background in web development, I embarked on a
+            journey a year ago to pursue a career in technology. I successfully
+            completed a comprehensive web development bootcamp, where I honed my
+            skills in both front-end and back-end technologies. My
+            specialisation lies in creating dynamic and responsive user
+            interfaces using React.js for the front-end, and building robust
+            server-side applications with Node.js for the back-end. I'm also
+            actively expanding my expertise by delving into TypeScript, Angular
+            and Python.
           </p>
           <p className="py-4 text-lg">
-            I am excited to keep learning and creating interesting projects in
-            the web development world.
+            I am passionate about leveraging my technical knowledge to
+            contribute to innovative projects and am eager to take on new
+            challenges in the field of web development.
           </p>
         </div>
       </div>

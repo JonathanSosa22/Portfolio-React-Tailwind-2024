@@ -5,36 +5,36 @@ const Skills = () => {
         Skills
       </h2>
 
-      <div className="flex flex-col gap-12 justify-center pb-5 md:flex-row md:gap-20">
+      <div className="flex flex-col gap-12 justify-center p-2 md:flex-row md:gap-20">
         <div>
           <h2 className="text-center text-2xl font-bold py-5 text-red-500">
             Font-End
           </h2>
           <div className="flex gap-20 justify-center">
-            <div className="flex flex-col gap-3">
-              <div>
+            <div className="flex flex-col gap-3 w-[110px]">
+              <div className="flex items-center p-2">
                 <i className="fa-solid fa-certificate text-yellow-300"></i>
                 <span className="text-gray-500 pl-3">HTML</span>
               </div>
-              <div>
+              <div className="flex items-center p-2">
                 <i className="fa-solid fa-certificate text-yellow-300"></i>
                 <span className="text-gray-500 pl-3">CSS</span>
               </div>
-              <div>
+              <div className="flex items-center p-2">
                 <i className="fa-solid fa-certificate text-yellow-300"></i>
                 <span className="text-gray-500 pl-3">JavaScript</span>
               </div>
             </div>
-            <div className="flex flex-col gap-3">
-              <div>
+            <div className="flex flex-col gap-3 w-[110px]">
+              <div className="flex items-center p-2">
                 <i className="fa-solid fa-certificate text-yellow-300"></i>
                 <span className="text-gray-500 pl-3">ReactJs</span>
               </div>
-              <div>
+              <div className="flex items-center p-2">
                 <i className="fa-solid fa-certificate text-yellow-300"></i>
                 <span className="text-gray-500 pl-3">Tailwind</span>
               </div>
-              <div>
+              <div className="flex items-center p-2">
                 <i className="fa-solid fa-certificate text-yellow-300"></i>
                 <span className="text-gray-500 pl-3">Boostrap</span>
               </div>
@@ -47,30 +47,30 @@ const Skills = () => {
             Back-End
           </h2>
           <div className="flex gap-20 justify-center">
-            <div className="flex flex-col gap-3">
-              <div>
+            <div className="flex flex-col gap-3 w-[110px]">
+              <div className="flex items-center p-2">
                 <i className="fa-solid fa-certificate text-yellow-300"></i>
                 <span className="text-gray-500 pl-3">SQL</span>
               </div>
-              <div>
+              <div className="flex items-center p-2">
                 <i className="fa-solid fa-certificate text-yellow-300"></i>
                 <span className="text-gray-500 pl-3">Git</span>
               </div>
-              <div>
+              <div className="flex items-center p-2">
                 <i className="fa-solid fa-certificate text-yellow-300"></i>
                 <span className="text-gray-500 pl-3">NodeJs</span>
               </div>
             </div>
-            <div className="flex flex-col gap-3">
-              <div>
+            <div className="flex flex-col gap-3 w-[110px]">
+              <div className="flex items-center p-2">
                 <i className="fa-solid fa-certificate text-yellow-300"></i>
                 <span className="text-gray-500 pl-3">ExpressJs</span>
               </div>
-              <div>
+              <div className="flex items-center p-2">
                 <i className="fa-solid fa-certificate text-yellow-300"></i>
                 <span className="text-gray-500 pl-3">Sequelize</span>
               </div>
-              <div>
+              <div className="flex items-center p-2">
                 <i className="fa-solid fa-certificate text-yellow-300"></i>
                 <span className="text-gray-500 pl-3">MongoDb</span>
               </div>
