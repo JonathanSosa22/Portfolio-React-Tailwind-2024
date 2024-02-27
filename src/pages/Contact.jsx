@@ -26,12 +26,21 @@ const Contact = () => {
       <h2 className="text-3xl font-bold text-center py-3" id="contact">
         Contact
       </h2>
-      <div className="flex p-3 mx-auto gap-5 justify-center items-center">
-        <img
-          src="https://i.ibb.co/0BwZ2Np/crud.png"
-          alt="formImg"
-          className="hidden md:block h-[400px] w-[350px] min-w-[300px] rounded-md"
-        />
+      <div className="flex flex-col p-3 mx-auto gap-5 justify-center items-center md:flex-row">
+        <div className="flex flex-col gap-4 justify-around h-[350px] w-[350px] min-w-[300px] text-gray-500 font-bold text-xl">
+          <div className="flex items-center p-2 gap-6">
+            <i className="fa-solid fa-envelope"></i>
+            <span>elpeka2294@gmail.com</span>
+          </div>
+          <div className="flex items-center p-2 gap-6">
+            <i className="fa-solid fa-phone"></i>
+            <span>+54 9 1133353720</span>
+          </div>
+          <div className="flex items-center p-2 gap-6">
+            <i className="fa-brands fa-linkedin"></i>
+            <span>in/jonathan-ezequiel-sosa</span>
+          </div>
+        </div>
         <form
           ref={refForm}
           onSubmit={handleSubmit}

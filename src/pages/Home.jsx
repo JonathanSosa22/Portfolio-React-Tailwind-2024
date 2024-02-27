@@ -24,12 +24,30 @@ const Home = () => {
               Download CV
             </button>
           </div>
-          <div className="flex gap-4 text-2xl">
-            <i className="fa-brands fa-youtube hover:text-gray-600 cursor-pointer"></i>
-            <i className="fa-brands fa-linkedin hover:text-gray-600 cursor-pointer"></i>
-            <i className="fa-brands fa-github hover:text-gray-600 cursor-pointer"></i>
-            <i className="fa-brands fa-facebook hover:text-gray-600 cursor-pointer"></i>
-            <i className="fa-brands fa-instagram hover:text-gray-600 cursor-pointer"></i>
+          <div className="flex gap-4 text-2xl items-center">
+            <a href="">
+              <i className="fa-brands fa-youtube hover:text-gray-600 cursor-pointer"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/jonathan-ezequiel-sosa/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <i className="fa-brands fa-linkedin hover:text-gray-600 cursor-pointer"></i>
+            </a>
+            <a
+              href="https://github.com/JonathanSosa22"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <i className="fa-brands fa-github hover:text-gray-600 cursor-pointer"></i>
+            </a>
+            <a href="">
+              <i className="fa-brands fa-facebook hover:text-gray-600 cursor-pointer"></i>
+            </a>
+            <a href="#">
+              <i className="fa-brands fa-instagram hover:text-gray-600 cursor-pointer"></i>
+            </a>
           </div>
         </div>
         <div className="p-5 ">
