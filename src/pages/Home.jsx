@@ -18,7 +18,7 @@ const Home = () => {
           </p>
           <div className="flex gap-4 pb-4 text-lg">
             <button className="bg-red-600 font-bold text-white px-4 py-2 rounded-md hover:bg-gray-600">
-              Contact me
+              <a href="#contact">Contact me</a>
             </button>
             <button className="border-2 font-bold border-red-600 px-4 py-2 rounded-md hover:bg-gray-600">
               Download CV
