@@ -27,7 +27,7 @@ const Contact = () => {
         Contact
       </h2>
       <div className="flex flex-col p-3 mx-auto gap-5 justify-center items-center md:flex-row">
-        <div className="flex flex-col gap-4 justify-around h-[350px] w-[350px] min-w-[300px] text-gray-500 font-bold text-xl">
+        <div className="flex flex-col gap-4 justify-around h-[350px] w-[300px] text-gray-500 font-bold text-xl">
           <div className="flex items-center p-2 gap-6">
             <i className="fa-solid fa-envelope"></i>
             <span>elpeka2294@gmail.com</span>

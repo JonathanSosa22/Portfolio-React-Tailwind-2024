@@ -6,7 +6,7 @@ const proyect = [
   {
     name: "WeatherApp",
     descripcion: "A simple Weather app",
-    url: "https://github.com/JonathanSosa22/WeatherApp",
+    url: "https://app-weather-v2.netlify.app/",
     repository: "https://github.com/JonathanSosa22/WeatherApp",
     img: weather,
   },
